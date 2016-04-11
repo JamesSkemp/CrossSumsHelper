@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="CrossSumsHelper.exe" version="2.1.0.0" publicKeyToken="5d6130d128577780" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CrossSumsHelper" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CrossSumsHelper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CrossSumsHelper.exe" size="65536">
+      <assemblyIdentity name="CrossSumsHelper" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/nxGnr1GYtfRYuDvfkqg1lyzcng=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=HP_a6360t\James" issuerKeyHash="f7faf28f1086aed05e973ce7f20f9d516c1a0fdb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>PsQkJYNkuT0p13YHYMaklcWiepE=</DigestValue></Reference></SignedInfo><SignatureValue>GQC0Qw+mo7nOYzJPK3qqsORXnP/1VFxx3rdwZ4OqGjZfSujedaIqli6xyiyLMajhLVdSAIF0CoaWrU7BTg6nREuxYwTKwXv+MO57LdJfRMMOrW+m15GJk94Q5bX5MwRT+hGkhtnDOJL1C8AIH2kEkecrQu8g8CoNpjS+/QTyqRw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2vvj6olfXUAE9erX8/8yQO/8fMI7gHiOCci68MCUxxZLUcc35tTD0H+5CDoMj310uzf18ftYSxzpssBr3dJXddNkeomd1H+O6qHI2OPLaCfaozjQGQ6GdreSga8n4rMfYS2RdOE+on3LaKOECnmqwkar7ex0IjOOC+Y6BNpZBMk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="917aa2c595a4c6600776d7293db964832524c43e" Description="" Url=""><as:assemblyIdentity name="CrossSumsHelper.exe" version="2.1.0.0" publicKeyToken="5d6130d128577780" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP_a6360t\James</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>kG4Yxrkdx8y0Rf7n04mPaDmnoeI=</DigestValue></Reference></SignedInfo><SignatureValue>iQCSQIrU4DKuOgWlDDuqQTaXeAgdCyTna6cMv30TfWjj47a8Ga57ktXFMFhZCvAiTi4HLEbObIgjbQx7Cw7jMwqPUjF9x+klDZYy64LvPhUkcs6SIJ9Uv6w5ksHb7CO13ogoJg34CK519iVb0JkIjxjTrESREJOy9tdcA2HzOI4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2vvj6olfXUAE9erX8/8yQO/8fMI7gHiOCci68MCUxxZLUcc35tTD0H+5CDoMj310uzf18ftYSxzpssBr3dJXddNkeomd1H+O6qHI2OPLaCfaozjQGQ6GdreSga8n4rMfYS2RdOE+on3LaKOECnmqwkar7ex0IjOOC+Y6BNpZBMk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQqTBaSgnY5ItFBUDQrIIiYjANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4ASABQAF8AYQA2ADMANgAwAHQAXABKAGEAbQBlAHMwHhcNMDgwNjAzMDI0MDQ3WhcNMDkwNjAzMDg0MDQ3WjApMScwJQYDVQQDHh4ASABQAF8AYQA2ADMANgAwAHQAXABKAGEAbQBlAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANr74+qJX11ABPXq1/P/MkDv/HzCO4B4jgnIuvDAlMcWS1HHN+bUw9B/uQg6DI99dLs39fH7WEsc6bLAa93SV3XTZHqJndR/juqhyNjjy2gn2qM40BkOhna3koGvJ+KzH2EtkXThPqJ9y2ijhAp5qsJGq+3sdCIzjgvmOgTaWQTJAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAShMc5Ox1s1LiCyIp0kHvmuPwBCu7yvG8Tqh8a/AKFxYjuB8JvbW61sYbZq8mVbvC5edY2BlnksTZm0TSysHE3dGjEONA3a627u4JmeNdZoNolRWsWgHtcPU/ku4U6Mcfy49ru8w1A9afnWCcIUx37SGSMLAPqLm+RMg4J9yQcc0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
